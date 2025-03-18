@@ -1,0 +1,40 @@
+body {
+    background-color: #181818;
+    color: white;
+    font-family: Verdana, sans-serif;
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+/* Styla rubriken */
+h1 {
+    color: blueviolet;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+/* Styla länkarna */
+.link-list {
+    list-style: none; /* Ta bort punkter från listan */
+    padding: 0;
+}
+
+.link-list li {
+    margin: 10px 0;
+}
+
+.link-list a {
+    color: orange;
+    text-decoration: none; /* Ta bort understrykning */
+    font-size: 20px;
+    padding: 10px;
+    display: inline-block;
+    transition: background-color 0.3s ease; /* Mjuk övergång vid hover */
+}
+
+/* Ändra bakgrundsfärg vid hover */
+.link-list a:hover {
+    background-color: orange; /* Orange genomskinlig bakgrund */
+    border-radius: 5px;
+}

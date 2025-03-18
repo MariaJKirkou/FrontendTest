@@ -1,0 +1,39 @@
+/* Styla body för att centrera och ge bakgrund */
+body {
+    background-color: #181818;
+    color: white;
+    font-family: Verdana, sans-serif;
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+/* Styla huvudrubriken */
+h1 {
+    color: orange;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+/* Flex-container för att skapa två kolumner */
+.container {
+    display: flex; /* Aktivera Flexbox */
+    justify-content: space-between; /* Jämnt avstånd mellan kolumnerna */
+    gap: 20px; /* Mellanrum mellan kolumner */
+    margin-top: 20px;
+}
+
+/* Kolumnstil */
+.column {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    width: 48%; /* Se till att de tar upp ungefär halva utrymmet */
+    text-align: left;
+}
+
+/* Styla bilder */
+.column img {
+    width: 100%; /* Gör så att bilderna anpassar sig till kolumnens bredd */
+    border-radius: 5px;
+}

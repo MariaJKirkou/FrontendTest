@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kontaktformulär</title>
+  </head>
+  <body>
+    <h1>KONTAKTFORMULÄR:</h1>
+
+    <form action="#" method="post">
+      <!-- Händer inget när man skickar iväg formuläret pga. de html  -->
+      <label for="namn">Namn</label><br />
+      <input
+        type="text"
+        id="namn"
+        name="namn"
+        placeholder="Förnamn Efternamn"
+      /><br /><br />
+
+      <label for="email">Email</label><br />
+      <!--  Skapar textfält (för namn och e-post).  -->
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="name@example.com"
+      /><br /><br />
+
+      <!-- Ett större fält för att skriva meddelandet.  -->
+      <label for="meddelande">Meddelande</label><br />
+      <textarea id="meddelande" name="meddelande" rows="4" cols="30"></textarea
+      ><br /><br />
+
+      <button type="submit">Skicka</button>
+    </form>
+    <!-- Skapar formuläret.  -->
+  </body>
+</html>
